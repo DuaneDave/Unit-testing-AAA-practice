@@ -26,8 +26,8 @@ describe('Assert if string is capitalized', () => {
     const type = typeof str;
     expect(type).toBe('string');
   });
-  
-  test('Is Pparameter capitalized', () => {
+
+  test('Is Parameter capitalized', () => {
     const str = 'hello';
     const result = capitalize(str);
     expect(result).toBe('Hello');
