@@ -21,6 +21,12 @@ describe('All test are for practice sake', () => {
 });
 
 describe('Assert if string is capitalized', () => {
+  test('Parameter must be a string', () => {
+    const str = 'hello';
+    const type = typeof str;
+    expect(type).toBe('string');
+  });
+  
   test('Is Pparameter capitalized', () => {
     const str = 'hello';
     const result = capitalize(str);
