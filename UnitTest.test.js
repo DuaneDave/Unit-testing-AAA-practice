@@ -9,5 +9,14 @@ describe('All test are for practice sake', () => {
     // Assert
     expect(result).toBe(5);
   });
+
+  test('reverse a string', () => {
+    // Arrange
+    const str = 'hello';
+    // Act
+    const result = reverseString(str);
+    // Assert
+    expect(result).toBe('olleh');
+  });
 });
 
