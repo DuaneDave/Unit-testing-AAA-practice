@@ -1,0 +1,24 @@
+{
+  "name": "unit-testing-aaa-practice",
+  "version": "1.0.0",
+  "description": "This is a simple exercise using Jest to perform unit testing based on the AAA pattern",
+  "main": "UnitTest.js",
+  "scripts": {
+    "test": "Jest",
+    "watch": "Jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuaneDave/Unit-testing-AAA-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuaneDave/Unit-testing-AAA-practice/issues"
+  },
+  "homepage": "https://github.com/DuaneDave/Unit-testing-AAA-practice#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
