@@ -16,4 +16,27 @@ function capitalize(str) {
   return capitalized;
 }
 
-module.exports = { stringLength, reverseString, capitalize };
+class Calculator {
+  constructor(value1, value2) {
+    this.value1 = value1;
+    this.value2 = value2;
+  }
+  add() {
+    const sum = this.value1 + this.value2;
+    return sum;
+  }
+  subtract() {
+    const minus = this.value1 - this.value2; 
+    return minus;
+  }
+  multiply() {
+    const product = this.value1 * this.value2
+    return product;
+  }
+  divide() {
+    const quotient = this.value1 / this.value2
+    return quotient;
+  }
+}
+
+module.exports = { stringLength, reverseString, capitalize, Calculator };
