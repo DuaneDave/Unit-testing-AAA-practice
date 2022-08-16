@@ -20,3 +20,10 @@ describe('All test are for practice sake', () => {
   });
 });
 
+describe('Assert if string is capitalized', () => {
+  test('Is Pparameter capitalized', () => {
+    const str = 'hello';
+    const result = capitalize(str);
+    expect(result).toBe('Hello');
+  });
+});
